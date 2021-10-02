@@ -47,15 +47,5 @@ public class Streams02FlatMapDemo {
 
         System.out.println(uniqueStudentActivities2);
         
-
-
-
-
-
-
-
     }
-
-
-
 }
