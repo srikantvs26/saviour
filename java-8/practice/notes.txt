@@ -1,5 +1,5 @@
 What is short circuiting?
----------------------------
+-------------------------
 ex 1. 
 
 						if(condition1 && condition2){
