@@ -23,9 +23,9 @@ public class NumericStream006MapToLongMapToDoubleInNumericStreamDemo {
          * numeric stream to LongStream or DoubleStream.
          */
         
-        IntStream.rangeClosed(1, 100).asLongStream();
+        LongStream asLongStream = IntStream.rangeClosed(1, 100).asLongStream();
         
-        IntStream.rangeClosed(1, 50).mapToLong(takeThisInt->Math.abs(takeThisInt)*2);
+        LongStream mapToLong = IntStream.rangeClosed(1, 50).mapToLong(takeThisInt->Math.abs(takeThisInt)*2);
         
         
         
