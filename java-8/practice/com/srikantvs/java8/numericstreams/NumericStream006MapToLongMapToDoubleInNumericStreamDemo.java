@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
-public class NumericStream006MapToLongMapToDoubleInNumericStreamDemo2 {
+public class NumericStream006MapToLongMapToDoubleInNumericStreamDemo {
 
     public static void main(String[] args) {
         
@@ -25,7 +25,7 @@ public class NumericStream006MapToLongMapToDoubleInNumericStreamDemo2 {
         
         IntStream.rangeClosed(1, 100).asLongStream();
         
-        IntStream.rangeClosed(1, 50).mapToLong(takeThisInt->takeThisInt);
+        IntStream.rangeClosed(1, 50).mapToLong(takeThisInt->Math.abs(takeThisInt)*2);
         
         
         
