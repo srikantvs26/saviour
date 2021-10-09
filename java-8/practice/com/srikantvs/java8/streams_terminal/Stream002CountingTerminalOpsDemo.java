@@ -2,20 +2,58 @@ package com.srikantvs.java8.streams_terminal;
 
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import com.learnJava.data.Student;
 import com.learnJava.data.StudentDataBase;
 
-public class CountingDemo {
+public class Stream002CountingTerminalOpsDemo {
 
 	public static void main(String[] args) {
 
-		Long studentCount = StudentDataBase.getAllStudents().stream()
-				.collect(Collectors.counting());
+	    //counting() : count the elements in the stream. Yes, we can do it with count method as well.
+	    
+	    
+	    
+		Long studentCount = StudentDataBase.getAllStudents()
+		                            .stream()
+                    		        .filter(stu->stu.getGpa()>=3.9)
+                    				.collect(Collectors.counting());
 
 		System.out.println(studentCount);
 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		// how many swimming hobbies are there.
 		long count = StudentDataBase.getAllStudents().stream()
 				.filter(student -> student.getActivities().stream().anyMatch(
@@ -24,6 +62,14 @@ public class CountingDemo {
 
 		System.out.println(count);
 
+		
+		
+		
+		
+		
+		
+		
+		
 		long count2 = StudentDataBase.getAllStudents().stream()
 				.map(student -> student.getActivities())
 				.flatMap(activitiesList -> activitiesList.stream())
