@@ -9,19 +9,19 @@ import java.util.stream.Collectors;
 import com.learnJava.data.Student;
 import com.learnJava.data.StudentDataBase;
 
-public class Stream005SummingIntTerminalOpsDemo2 {
+public class Stream006AveragingIntTerminalOpsDemo {
 
     public static void main(String[] args) {
-        //summingInt() : this collectors returns the sum as result.
+        //averagingInt : this collector returns the average of the result
         
         
-        // total marks of all students.
+        // average grade.
         
-        Integer totalMarks = StudentDataBase.getAllStudents()
+        Double averageGrade = StudentDataBase.getAllStudents()
                                 .stream()
-                                .collect(Collectors.summingInt(student->student.getGradeLevel()));
+                                .collect(Collectors.averagingInt(student->student.getGradeLevel()));
         
-        System.out.println(totalMarks);
+        System.out.println(averageGrade);
         
         
         

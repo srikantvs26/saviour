@@ -25,12 +25,14 @@ public class Stream004MaxByMinByTerminalOpsDemo {
         Optional<Student> smallestName = StudentDataBase.getAllStudents()
                         .stream()
                         .collect(Collectors.minBy(studentComparator));
+        
         System.out.println(smallestName.get());
         
         Optional<Student> largestName = StudentDataBase.getAllStudents()
                 .stream()
                 .collect(Collectors.maxBy(studentComparator));
-System.out.println(largestName.get());
+        
+        System.out.println(largestName.get());
         
     }
 
