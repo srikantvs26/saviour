@@ -1,0 +1,36 @@
+package com.srikantvs.java8.optional;
+
+import java.util.Arrays;
+import java.util.Optional;
+
+import com.learnJava.data.Student;
+import com.learnJava.data.StudentDataBase;
+
+public class Optional007OrElseThrowDemo {
+
+ public static void main(String[] args) {
+        
+        //orElse example.
+        
+        Student student1 = new Student("Adam",2,3.6, "male",10,Arrays.asList("swimming", "basketball","volleyball"));
+
+        // Now I want this student Name if name is not there I want name as John Doe.
+        
+        String studentName = getStudentName(student1);
+        System.out.println(studentName);
+        
+        student1 = null;
+        String studentName2 = getStudentName(student1);
+        System.out.println(studentName2);
+        
+        
+        
+    }
+
+    private static String getStudentName(Student student1) {
+        String studentName = Optional.ofNullable(student1)
+                                     .map(singleStudent->singleStudent.getName())
+                                     .orElseThrow(()->new RuntimeException("No Data Available"));
+        return studentName;
+    }
+}
