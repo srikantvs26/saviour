@@ -17,11 +17,13 @@ public class Stream005SummingIntTerminalOpsDemo {
         
         // total marks of all students.
         
-        Integer totalMarks = StudentDataBase.getAllStudents()
+       Double totalMarks = StudentDataBase.getAllStudents()
                                 .stream()
-                                .collect(Collectors.summingInt(student->student.getGradeLevel()));
+                                .collect(Collectors.summingDouble(student->student.getGpa()));
         
-        System.out.println(totalMarks);
+       System.out.println(totalMarks);
+       
+       // lly aap summingInt ka bhi kar sakte ho.
         
         
         
