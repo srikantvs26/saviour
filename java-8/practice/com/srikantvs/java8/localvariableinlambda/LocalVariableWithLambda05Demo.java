@@ -23,6 +23,7 @@ public class LocalVariableWithLambda05Demo {
         
         Consumer<Integer> intConsumer = (x)->{
             System.out.println(x);
+            instanceVariable++;// we are changing the value of static variable here, so no restrictions for static variables here.
             System.out.println(instanceVariable);
         };
         
