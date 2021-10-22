@@ -13,13 +13,15 @@ public class DateTime025InstantDemo {
         // Represents time in seconds from January 1 1970(EPOH) to current time of our machine.
         
         Instant instant = Instant.now();
-        System.out.println("instant : "+instant);//instant : 2021-10-22T06:55:26.042Z 5:30 hours less than system
+        System.out.println("instant : "+instant);//instant : 2021-10-22T06:55:26.042Z 5:30 hours less than system Z means UTC GMT:00:00
         
         System.out.println("getEpochSecond : "+instant.getEpochSecond()); // jan 1 1970 se ab tak kitne seconds aa gye wo hai ye
 
         Instant instant2 = Instant.ofEpochSecond(0);
         System.out.println("instant2 : "+instant2);//1970-01-01T00:00:00Z
         
+        
+        // need more exploring here.
     }
 
 }

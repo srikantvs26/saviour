@@ -20,14 +20,15 @@ public class DateTime017LocalDateTimeDemo {
         System.out.println("localDateTime2 : "+localDateTime2);
         
         
-        
         // By combining LocalDate and LocalTime
         LocalDateTime localDateTime3 = LocalDateTime.of(LocalDate.now(), LocalTime.now());
         System.out.println("localDateTime3 : "+localDateTime3);
         
         
         
-        // getting values from LocalDateTime
+        // Creating LocalDateTime with LocalDate.
+        LocalDateTime localDateTime4 = LocalDate.now().atTime(LocalTime.now());// now I have combined both localDate and localTime
+        System.out.println("localDateTime4 : "+localDateTime4);
         
         
         
