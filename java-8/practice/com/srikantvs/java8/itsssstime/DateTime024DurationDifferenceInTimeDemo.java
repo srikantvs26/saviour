@@ -10,18 +10,25 @@ import java.time.temporal.Temporal;
 public class DateTime024DurationDifferenceInTimeDemo {
 
     public static void main(String[] args) {
-        
-        // DateTime013LocalTimeUtilDemo.java -> Check this file as well. 
-        
+
+        // DateTime013LocalTimeUtilDemo.java -> Check this file as well.
+
         LocalTime localTimeMidNight = LocalTime.MIDNIGHT;
         LocalTime localTimeNoon = LocalTime.NOON;
         Duration between = Duration.between(localTimeMidNight, localTimeNoon);
+
+        System.out.println("Number of seconds : " + between.getSeconds());
+        System.out.println("Number of hours : " + between.toHours());// notice to here.
+        System.out.println("Number of minutes : " + between.toMinutes());
+
+        // Number of seconds : 43200
+        // Number of hours : 12
+        // Number of minutes : 720
         
-        System.out.println("Number of seconds : "+between.getSeconds());
-        System.out.println("Number of hours : "+between.toHours());
-        System.out.println("Number of minutes : "+between.toMinutes());
-        
-        
+        // until() method is also there.
+        long totalMinutes = localTimeMidNight.until(localTimeNoon, ChronoUnit.MINUTES);
+        System.out.println("No. of Minutes : "+totalMinutes);
+
     }
 
 }

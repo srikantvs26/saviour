@@ -12,7 +12,7 @@ public class DateTime023DurationDemo {
         // Duration : It is a time based representation of time in hours,
         // minutes seconds and nano seconds
         
-        // Compatible with LocalDateTime and LocalTime
+        // Compatible with LocalDateTime and LocalTime ONLY
         
         // It represents a duration of time, not just specific time.
         // eg.
