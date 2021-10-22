@@ -4,8 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class DefaultMethods004MultiplierClientDemo {
-
-    
     
     public static void main(String[] args) {
         
