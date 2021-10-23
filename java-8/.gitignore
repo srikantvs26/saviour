@@ -32,3 +32,6 @@ nbdist/
 # IntelliJ
 /out/
 
+#Eclipse
+/bin/
+
