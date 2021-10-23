@@ -1,7 +1,6 @@
 package com.srikantvs.java8.itsssstime;
 
 import java.time.LocalDate;
-import java.time.Period;
 import java.time.temporal.ChronoUnit;
 
 public class DateTime022PeriodDifferenceBetweenDatesV2Demo {
@@ -23,9 +22,8 @@ public class DateTime022PeriodDifferenceBetweenDatesV2Demo {
 
         long until2 = startDateInclusive.until(endDateExclusive, ChronoUnit.MONTHS);
         System.out.println("No of months : "+until2);
-        
-        
-        
+
+
         /**
          * startDateInclusive : 1996-08-26 
          * endDateExclusive : 2021-10-22 

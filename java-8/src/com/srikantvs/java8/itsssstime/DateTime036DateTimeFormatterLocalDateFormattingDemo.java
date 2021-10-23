@@ -22,7 +22,6 @@ public class DateTime036DateTimeFormatterLocalDateFormattingDemo {
         System.out.println("localDate2 : "+localDate2);
         System.out.println("dateFormat2 : "+dateFormat2);// 22/10/2021
 
-
         // Pattern includes reserved character: '#'
         // # is reserved character.
         // String dateFormat3 = localDate2.format(DateTimeFormatter.ofPattern("dd#MM#yyyy"));

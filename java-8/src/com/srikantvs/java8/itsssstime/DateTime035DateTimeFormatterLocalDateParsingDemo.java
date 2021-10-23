@@ -33,7 +33,7 @@ public class DateTime035DateTimeFormatterLocalDateParsingDemo {
         System.out.println("date1 : "+date1);
         LocalDate localDate2 = LocalDate.parse(date1);// by default used ISO_LOCAL_DATE
         System.out.println("American Date Format : "+localDate2);
-        
+
         //parsing v3.
         String date2 = "20211022";
         System.out.println("date2: "+date2);

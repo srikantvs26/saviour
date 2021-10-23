@@ -1,13 +1,8 @@
 package com.srikantvs.java8.itsssstime;
 
-import java.time.Clock;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
-import java.time.Month;
-import java.time.temporal.ChronoField;
-import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalAdjusters;
 
 public class DateTime018LocalDateTimeGettingValuesDemo {
 

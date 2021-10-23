@@ -15,8 +15,8 @@ public class DateTime038DateTimeFormatterLocalDateTimeDemo {
         System.out.println("date time Format1 : "+timeFormat1);
 
         System.out.println("---------------------------------------------------------");
-        // parsing v1
 
+        // parsing v1
         String dateTime = "22/10/2021 04:55 AM";
         LocalDateTime localDateTime2 = LocalDateTime.parse(dateTime, DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm a"));
         System.out.println("dateTime : "+dateTime);
@@ -31,7 +31,7 @@ public class DateTime038DateTimeFormatterLocalDateTimeDemo {
         System.out.println("localDateTime3 : "+localDateTime3);
 
         System.out.println("---------------------------------------------------------");
-        
+
         // parsing v3
         String dateTime3 = "2021-10-22T15:57:03";
         LocalDateTime localDateTime4 = LocalDateTime.parse(dateTime3, DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss"));// take care of single quotes around T
@@ -39,9 +39,5 @@ public class DateTime038DateTimeFormatterLocalDateTimeDemo {
         System.out.println("localDateTime4 : "+localDateTime4);
 
     }
-
-
-
-
 
 }

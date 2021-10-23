@@ -20,25 +20,22 @@ public class DateTime020PeriodDemo {
         Period period2 = Period.ofYears(10);
         Period period3 = Period.ofWeeks(5);
         Period period4 = Period.of(10, 10, 10);// Period of 10 Years, 10 Months
-                                               // and 10 days.
+        // and 10 days.
 
         System.out.println("period : " + period);
         System.out.println("period2 : " + period2);
         System.out.println("period3 : " + period3);
         System.out.println("period4 : " + period4);
 
-        
-      
-        
-        
+
         // period : P10D
         // period2 : P10Y
         // period3 : P35D
         // period4 : P10Y10M10D
-        
+
         // aap kitna bhi days de do ye usko period me convert kar lega.
         // that is why it's period of time. Same duration bhi aisa hi hai
-        
+
         Period pacchinsHazaarDinKaKyaPeriodHai = Period.ofYears(12345);
         System.out.println("pacchinsHazaarDinKaKyaPeriodHai : "+pacchinsHazaarDinKaKyaPeriodHai);
 

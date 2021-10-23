@@ -1,11 +1,8 @@
 package com.srikantvs.java8.itsssstime;
 
 import java.time.Duration;
-import java.time.LocalDate;
 import java.time.LocalTime;
-import java.time.Period;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.Temporal;
 
 public class DateTime024DurationDifferenceInTimeDemo {
 

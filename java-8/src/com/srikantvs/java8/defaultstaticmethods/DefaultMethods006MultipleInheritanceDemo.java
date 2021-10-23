@@ -10,7 +10,7 @@ public class DefaultMethods006MultipleInheritanceDemo {
         client123.methodA();
         client123.methodB();
         client123.methodC();
-        
+
     }
 
     interface Interface1 {
@@ -30,10 +30,9 @@ public class DefaultMethods006MultipleInheritanceDemo {
             System.out.println("inside method C");
         }
     }
-    
-    
-    class Client123 implements Interface1, Interface2, Interface3{
-        
+
+    class Client123 implements Interface1, Interface2, Interface3 {
+
     }
 
 }

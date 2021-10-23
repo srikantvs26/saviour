@@ -1,10 +1,8 @@
 package com.srikantvs.java8.itsssstime;
 
-import java.time.Clock;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalAdjusters;
 
 public class DateTime009UnSupportedDemo {
 
@@ -19,20 +17,20 @@ public class DateTime009UnSupportedDemo {
         // lets add seconds to this date.
 
         // LocalDate localDate2 = localDate.plus(4,ChronoUnit.SECONDS);//java.time.temporal.UnsupportedTemporalTypeException:Unsupported unit: Seconds
-        
-        
-        
+
+
+
         // so we can check if a particular unit to be added or subtracted is supported or not.
-        
+
         boolean supported = localDate.isSupported(ChronoUnit.SECONDS);
         System.out.println(supported);//false.
-        
-        
+
+
         LocalTime localTime = LocalTime.now();
         boolean supported2 = localTime.isSupported(ChronoUnit.SECONDS);
         System.out.println(supported2);
-        
-        
+
+
 
     }
 
