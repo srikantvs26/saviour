@@ -24,12 +24,12 @@ public class Stream007GroupingBy01TerminalOpsDemo {
         // groupingBy(classifier, supplier, downstream)// supplier is used to
         // override the default Map what we are getting to something like tree
         // map.
-        
-        
+
+
         // groupingby se pehle ye dekh lo ki bhai ye groupby k layaak hai bhi yaa nahi.
         // ab aap group by name nahi kar sakte jab sare name unique hai.
         // isliye group by gender kar sakte hai.
-        
+
 
         // use case : I want to group students by gender.
 
@@ -59,21 +59,21 @@ public class Stream007GroupingBy01TerminalOpsDemo {
          * female key, male key you can see here.
          * 
          */
-        
+
         // With customized key. eg. OUTSTANDING, AVERAGE
-        
-        
+
+
         // use case : group students by gpa.
         Map<String, List<Student>> studentsByGPA = StudentDataBase.getAllStudents()
-                                                                .stream()
-                                                                .collect(Collectors.groupingBy(student->{
-                                                                    if(student.getGpa()>=3.8) return "OUTSTANDING";
-                                                                    else return "AVERAGE";
-                                                                }));
-        
-        
+                .stream()
+                .collect(Collectors.groupingBy(student->{
+                    if(student.getGpa()>=3.8) return "OUTSTANDING";
+                    else return "AVERAGE";
+                }));
+
+
         System.out.println(studentsByGPA);
-        
+
         /*
          * {AVERAGE=[Student{name='Adam', gradeLevel=2, gpa=3.6, gender='male',
          * activities=[swimming, basketball, volleyball]},
@@ -90,8 +90,8 @@ public class Stream007GroupingBy01TerminalOpsDemo {
          * gender='male', activities=[swimming, basketball, baseball,
          * football]}]}
          */
-        
-        
+
+
 
     }
 

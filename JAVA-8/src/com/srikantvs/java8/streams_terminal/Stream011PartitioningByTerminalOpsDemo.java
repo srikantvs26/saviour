@@ -49,23 +49,23 @@ public class Stream011PartitioningByTerminalOpsDemo {
          * football]}]}
          * 
          */
-        
-        
-        
+
+
+
         // I just want names not student object.
-        
-        
-        
+
+
+
         Map<Boolean, List<String>> result2 = StudentDataBase.getAllStudents()
-                                                .stream()
-                                                .collect(
-                                                        Collectors.partitioningBy(
-                                                                student->student.getGpa()>3.8,
-                                                                Collectors.mapping(student->student.getName(),Collectors.toList())
-                                                                ));
-        
-        
-        
+                .stream()
+                .collect(
+                        Collectors.partitioningBy(
+                                student->student.getGpa()>3.8,
+                                Collectors.mapping(student->student.getName(),Collectors.toList())
+                                ));
+
+
+
         System.out.println(result2);
     }
 

@@ -2,7 +2,6 @@ package com.srikantvs.java8.streams;
 
 import java.security.SecureRandom;
 import java.util.List;
-import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
