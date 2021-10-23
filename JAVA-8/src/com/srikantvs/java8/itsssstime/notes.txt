@@ -1,0 +1,19 @@
+New Date Time APIs
+-------------------
+1. LocalDate, LocalTime, LocalDateTime classes are introduced in Java 8.
+
+2. They reside in java.time package.
+
+3. They took inspiration form joda time library.
+
+4. All these classes (LocalDate, LocalTime, LocalDateTime) are immutable.
+
+5. Other Classes in this package are : Instant, Duration, Period etc.
+
+6. java.util.Date and java.util.Calender have many limitations.
+
+
+
+LocaDate : Used to represent date. 
+LocalTime : Used to represent time.
+LocalDateTime : Used to represent date and time both in one.

@@ -1,0 +1,20 @@
+What is parallel Stream?
+--------------------------
+A parallel stream : 
+    splits the source of data into multiple parts.
+    process them in parallel.
+    combine the result.
+    
+    
+How to create Parallel Stream
+--------------------------------
+IntStream.rangeClosed(1,100).sum(); //sequential stream
+IntStream.rangeClosed(1,100).parallel().sum(); // parallel stream
+
+How Parallel Stream Works
+----------------------------
+Parallel stream used the Fork/Join framework that was introduced in Java 7.
+    So How Many threads are created? :
+    -----------------------------------
+    Number of threads created == number of processors available in the machine.
+     
