@@ -13,13 +13,14 @@ public class Streams03DistinctCountSortedDemo {
         // 	distinct : uniques values form the stream.
         // count : total values in the stream
         // sorted : alphabetical sorting of the stream elements.
+
         List<String> uniqueStudentActivities2 = StudentDataBase.getAllStudents()
-                                                                .stream()
-                                                                .map(eachStudent -> eachStudent.getActivities())//Stream<List<String>>
-                                                                .flatMap(takeThatStudentList -> takeThatStudentList.stream())// here. it will become <Stream<Stream<String>> but with that flatmap one stream will be gone so we will be end up with just Stream<String>
-                                                                .distinct()
-                                                                .sorted()
-                                                                .collect(Collectors.toList());
+                .stream()
+                .map(eachStudent -> eachStudent.getActivities())//Stream<List<String>>
+                .flatMap(takeThatStudentList -> takeThatStudentList.stream())// here. it will become <Stream<Stream<String>> but with that flatmap one stream will be gone so we will be end up with just Stream<String>
+                .distinct()
+                .sorted()
+                .collect(Collectors.toList());
 
         System.out.println(uniqueStudentActivities2);
 
@@ -28,12 +29,12 @@ public class Streams03DistinctCountSortedDemo {
         //		
 
         long distinctActivitiesCount = StudentDataBase.getAllStudents()
-                                                        .stream()
-                                                        .map(eachStudent -> eachStudent.getActivities())//Stream<List<String>>
-                                                        .flatMap(takeThatStudentList -> takeThatStudentList.stream())// here. it will become <Stream<Stream<String>> but with that flatmap one stream will be gone so we will be end up with just Stream<String>
-                                                        .distinct()
-                                                        .sorted()
-                                                        .count();
+                .stream()
+                .map(eachStudent -> eachStudent.getActivities())//Stream<List<String>>
+                .flatMap(takeThatStudentList -> takeThatStudentList.stream())// here. it will become <Stream<Stream<String>> but with that flatmap one stream will be gone so we will be end up with just Stream<String>
+                .distinct()
+                .sorted()
+                .count();
 
         System.out.println(distinctActivitiesCount);
 
