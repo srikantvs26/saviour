@@ -3,8 +3,8 @@ package com.example.demo.model;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@ConfigurationProperties
-@Component
+@ConfigurationProperties //Annotation for externalized configuration.
+@Component  // to make this class as Bean eligible for component scanning
 public class Car {
 
     private String modelName;
