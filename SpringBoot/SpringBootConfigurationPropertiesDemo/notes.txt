@@ -1,0 +1,8 @@
+Spring Boot @ConfigurationProperties Example
+---------------------------------------------
+It is used when we want to externalize(matlab kahi aur jagah us configuration ko rakh kar aur phir us configuration ko code se read karna) our custom properties.
+
+We know that in Spring Boot there is already one file called "application.properties". In that file configuration is given for the application. But what if our application has a lot of configuration data, So we can create our own custom .properties file and store our custom configuration in it, and then read it(Configuration) in our code.
+
+
+
