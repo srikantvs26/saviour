@@ -2,6 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,eclipse,visualstudiocode,intellij,maven
 
 ### Eclipse ###
+*.cmd
+.vscode
 .metadata
 bin/
 tmp/
