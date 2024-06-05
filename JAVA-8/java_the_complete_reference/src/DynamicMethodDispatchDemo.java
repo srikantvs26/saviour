@@ -51,10 +51,9 @@ public class DynamicMethodDispatchDemo {
         // A b = (C)d;
         Object o = (Vehicle) mercedez;
 
-
         //ClassCastException
         // Mercedez mx = (Mercedez)v1;
-        Vehicle mx1 = (Mercedez)v1;
+        Vehicle mx1 = (Mercedez)v1; //v1 is Toyota see clearly
     }
 
 }
