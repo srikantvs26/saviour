@@ -25,7 +25,7 @@ public class MethodOverrdingDemo {
         a.sound();
         d.sound();
         a2.sound();
-        a3.sound();
+        a3.sound(); // NPE
 
 
     }
