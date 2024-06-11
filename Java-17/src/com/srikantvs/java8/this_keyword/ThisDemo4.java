@@ -1,36 +1,44 @@
 package com.srikantvs.java8.this_keyword;
 
-class Box4 {
+// invoking overloaded constructors through this()
+// Advantages:
+// using this for constructor overloading can prevent unnecesssary duplication of code.
+
+// Restrictions:
+// this or super must be first line in constructor.
+// We cannot use super and this in the same constructor.
+// We cannot use instance variables in a this() call. (ThisDemo6)
+class Box5 {
+
     double length;
     double breadth;
+    double height;
 
-    Box4(double length, double breadth) {
+    Box5(double length, double breadth) {
+        this(1);
         this.length = length;
         this.breadth = breadth;
     }
 
-    Box4() {
+    Box5(double height) {
+        this.height = height;
+    }
+
+    Box5() {
 
     }
 
-    void area() {
-        System.out.println(length * breadth);
+    void volume() {
+        System.out.println("Volume :: " + length * breadth * height);
     }
-}
 
-class BoxWeight4 extends Box4 {
-    boolean length; // this will hide the superclass's length
-    double breadth;
-
-    void show() {
-        System.out.println(this.length);
-        System.out.println(this.breadth);
-    }
 }
 
 public class ThisDemo4 {
+
     public static void main(String[] args) {
-        BoxWeight4 boxWeight4 = new BoxWeight4();
-        boxWeight4.show();
+        Box5 box = new Box5(15555, 1555);
+        box.volume();
     }
+
 }

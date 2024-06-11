@@ -9,23 +9,29 @@ package com.srikantvs.java8.this_keyword;
 // another version of Box( ), which uses width, height, and depth for parameter names and then
 // uses this to access the instance variables by the same name:
 
-class Box {
+class Box2 {
     double width;
     double height;
     double depth;
 
     // using this to resolve namespace collisions
-    Box(double width, double height, double depth) {
+    Box2(double width, double height, double depth) {
         this.depth = depth;
         this.height = height;
         this.width = width;
+    }
+
+    void volume(){
+        System.out.println(width * height * depth);
     }
 }
 
 public class ThisDemo2 {
 
     public static void main(String[] args) {
-        
+        Box2 box = new Box2(0, 0, 0);
+        box.volume();
+        System.out.println(box);
     }
 
 }
