@@ -15,7 +15,7 @@ class Box5 {
     double height;
 
     Box5(double length, double breadth) {
-        this(1);
+        this(1); // we are not using instance variable in a this call.
         this.length = length;
         this.breadth = breadth;
     }
