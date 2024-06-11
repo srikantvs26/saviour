@@ -1,3 +1,4 @@
+package com.srikantvs.java8;
 class Vehicle {
 
     public void wheels() {

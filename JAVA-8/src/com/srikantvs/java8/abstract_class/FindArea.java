@@ -1,4 +1,4 @@
-package abstract_class;
+package com.srikantvs.java8.abstract_class;
 
 class Figure{
     double dim1;

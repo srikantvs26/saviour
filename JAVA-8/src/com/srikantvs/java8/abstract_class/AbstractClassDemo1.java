@@ -1,4 +1,4 @@
-package abstract_class;
+package com.srikantvs.java8.abstract_class;
 
 // There are situations where we want to define a superclass that declare the structure of a given abstraction(Animal) without providing the complete implementation of every method. We want the superclass to only define the generalized form which will be shared by all of its subclasses, We want the subclasses to complete implementation of those methods.
 
