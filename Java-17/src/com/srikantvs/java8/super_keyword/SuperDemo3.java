@@ -1,4 +1,4 @@
-package super_keyword;
+package com.srikantvs.java8.super_keyword;
 
 // 1. Using super to access member of the superclass that has been hidden by member of subclass
 

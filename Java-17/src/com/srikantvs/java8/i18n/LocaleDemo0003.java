@@ -1,3 +1,4 @@
+package com.srikantvs.java8.i18n;
 import java.util.Locale;
 
 public class LocaleDemo0003 {

@@ -1,4 +1,4 @@
-package constructors_and_super_keyword;
+package com.srikantvs.java8.constructors_and_super_keyword;
 
 class Box {
     double length;

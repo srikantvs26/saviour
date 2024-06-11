@@ -1,4 +1,4 @@
-package constructors_and_super_keyword;
+package com.srikantvs.java8.constructors_and_super_keyword;
 
 //The constructors of the subclass can initialize only the instance variables of the subclass. Thus, when a subclass object is instantiated the subclass object must also automatically execute one of the constructors of the superclass.
 
