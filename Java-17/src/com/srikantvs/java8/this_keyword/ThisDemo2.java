@@ -24,4 +24,8 @@ class Box {
 
 public class ThisDemo2 {
 
+    public static void main(String[] args) {
+        
+    }
+
 }

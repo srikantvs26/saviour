@@ -15,7 +15,7 @@ class Box5 {
     double height;
 
     Box5(double length, double breadth) {
-        this(1);
+        this(height);// we cannot use instance variables in a this() call.
         this.length = length;
         this.breadth = breadth;
     }
@@ -34,7 +34,7 @@ class Box5 {
 
 }
 
-public class ThisDemo5 {
+public class ThisDemo6{
 
     public static void main(String[] args) {
         Box5 box = new Box5(15555, 1555);
