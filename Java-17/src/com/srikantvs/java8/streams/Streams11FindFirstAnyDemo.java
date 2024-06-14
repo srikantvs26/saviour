@@ -1,6 +1,8 @@
 package com.srikantvs.java8.streams;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import com.srikantvs.java8.data.Student;
 import com.srikantvs.java8.data.StudentDataBase;
@@ -10,12 +12,9 @@ public class Streams11FindFirstAnyDemo {
     public static void main(String[] args) {
 
         /*
-         * findFirst and findAny method is used to find an element from stream
-         * to work with. both return optional object.
-         * 
-         * 
-         * findFirst : find the first element for us. findAny : find any element
-         * for us.
+         * findFirst and findAny method is used to find an element from stream to work with. both return optional object.
+         * findFirst : find the first element for us.
+         * findAny : find any element for us.
          */
 
         Optional<Student> student1 = StudentDataBase.getAllStudents().stream()
@@ -27,6 +26,7 @@ public class Streams11FindFirstAnyDemo {
                 .findFirst();
 
         student2.ifPresent(student -> System.out.println(student));
+
 
     }
 

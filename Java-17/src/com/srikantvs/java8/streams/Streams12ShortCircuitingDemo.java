@@ -20,7 +20,7 @@ public class Streams12ShortCircuitingDemo {
          * infinite input, it may terminate in finite time.
          * 
          * Having a short-circuiting operation in the pipeline is a necessary,
-         * but not sufficient, condition for the processing of an infinite
+         * but not sufficient condition for the processing of an infinite
          * stream to terminate normally in finite time.
          *
          */
