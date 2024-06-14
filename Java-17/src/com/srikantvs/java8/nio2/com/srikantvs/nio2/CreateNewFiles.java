@@ -1,7 +1,4 @@
-package com.srikantvs.nio2;
-
-import java.io.FileNotFoundException;
-import java.io.IOException;
+package com.srikantvs.java8.nio2.com.srikantvs.nio2;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;

@@ -4,35 +4,27 @@ import java.util.function.Consumer;
 
 public class LocalVariableWithLambda04Demo {
 
-    int instanceVariable = 1;//local instance variable.
-    
-    
+    int instanceVariable = 1;// local instance variable.
+
     public static void main(String[] args) {
 
         // what is local variable?
         // Any variable that is declared inside a method is called local variable.
-        
-        
+
         // Lambda Expression have some restrictions on using local variables.
         // 1. Not allowed to use the same local variable name in the lambda parameters.
-        // 2. Not allowed to re-assign a value to a local variable inside lambda expression.
+        // 2. Not allowed to re-assign a value to a local variable inside lambda
+        // expression.
         // 3. No restrictions on instance variables or static variables.
-        
-        
+
         // 3.
-        
-        Consumer<Integer> intConsumer = (x)->{
+
+        Consumer<Integer> intConsumer = (x) -> {
             System.out.println(x);
             System.out.println(new LocalVariableWithLambda04Demo().instanceVariable);
         };
-        
-        new LocalVariableWithLambda04Demo().instanceVariable=500;
-        
-        
-       
-        
-        
-        
+
+        new LocalVariableWithLambda04Demo().instanceVariable = 500;
 
     }
 
