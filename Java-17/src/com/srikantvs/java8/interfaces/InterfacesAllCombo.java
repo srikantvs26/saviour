@@ -2,8 +2,7 @@ package com.srikantvs.java8.interfaces;
 
 interface A {
 
-    // ============================abstract instance method
-    // declarations=====================
+    // ============================abstract instance method declarations============
     void show();
 
     abstract void show2();
