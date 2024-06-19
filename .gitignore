@@ -3,7 +3,6 @@
 
 ### Eclipse ###
 *.cmd
-.vscode
 .metadata
 bin/
 tmp/
@@ -196,7 +195,6 @@ fabric.properties
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -228,12 +226,13 @@ buildNumber.properties
 .classpath
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+# !.vscode/*.code-snippets
+# !/lib/*
 
 # Local History for Visual Studio Code
 .history/
