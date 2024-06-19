@@ -1,4 +1,4 @@
-package super_keyword;
+package com.srikantvs.java8.super_keyword;
 
 // 1. Using super to call superclass constructors
 
@@ -19,7 +19,7 @@ class Box {
 }
 
 class BoxWeight extends Box {
-    // this has access to length breadth and height? How do we initalize those in
+    // BoxWeight has access to length breadth and height? How do we initalize those in
     // constructor? use super keyword
     double weight;
 
