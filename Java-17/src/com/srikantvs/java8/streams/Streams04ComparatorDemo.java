@@ -31,7 +31,8 @@ public class Streams04ComparatorDemo {
                 // now I want in descending.
 
                 List<Student> studentListDescending = StudentDataBase.getAllStudents()
-                                .stream().sorted(studentComparatorWithName.reversed())
+                                .stream()
+                                .sorted(studentComparatorWithName.reversed())
                                 .collect(Collectors.toList());
 
                 System.out.println(studentListDescending);

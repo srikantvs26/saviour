@@ -12,10 +12,8 @@ public class Streams01MapDemo {
         // map() method is used to convert stream from one type to another, here from
         // Stream<Student> to Stream<String>
 
-        List<String> studentNames = StudentDataBase.getAllStudents()
-                .stream() // Stream<Student>
-                .map(takeEachStudent -> takeEachStudent.getName())// Stream<String>
-                .collect(Collectors.toList());
+        List<String> studentNames = StudentDataBase.getAllStudents().stream()
+                .map(takeEachStudent -> takeEachStudent.getName()).collect(Collectors.toList());
 
         System.out.println(studentNames);
 

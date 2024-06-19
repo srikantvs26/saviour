@@ -31,16 +31,14 @@ public class NumericStream002RangeRangeClosedCountDemo {
         long count2 = IntStream.rangeClosed(1, 50).count();
         System.out.println("count2 : " + count2);
 
-        
-        //sum
+        // sum
         int sum = IntStream.rangeClosed(1, 50).sum();
-        System.out.println("sum : "+sum);
-        
+        System.out.println("sum : " + sum);
+
         // double stream
         double sum2 = IntStream.rangeClosed(1, 50).asDoubleStream().sum();
-        System.out.println("sum2 : "+sum2);
-        
-        
+        System.out.println("sum2 : " + sum2);
+
     }
 
 }

@@ -16,25 +16,22 @@ public class NumericStream003SumMaxMinAverageDemo {
          * max
          * avg
          */
-        
+
         int sum = IntStream.rangeClosed(1, 100).sum();
         System.out.println(sum);
-        
-        
-        
-        //note the Optional here. 
-        // it is good when stream is empty.        
-        
+
+        // note the Optional here.
+        // it is good when stream is empty.
+
         OptionalInt min = IntStream.rangeClosed(1, 100).min();
-        min.ifPresent(minVal->System.out.println(minVal));
-        
+        min.ifPresent(minVal -> System.out.println(minVal));
+
         OptionalInt max = IntStream.rangeClosed(1, 100).max();
-        max.ifPresent(maxVal->System.out.println(maxVal));
-        
+        max.ifPresent(maxVal -> System.out.println(maxVal));
+
         OptionalDouble average = IntStream.rangeClosed(1, 100).average();
-        average.ifPresent(avgVal->System.out.println(avgVal));
-        
-        
+        average.ifPresent(avgVal -> System.out.println(avgVal));
+
     }
 
 }

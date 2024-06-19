@@ -8,45 +8,36 @@ public class NumericStream004BoxingUnboxingDemo {
 
     public static void main(String[] args) {
 
-        
-        // Boxing : converting primitive type to wrapper type.
+        // Boxing : converting primitive type to wrapper type
         // int -> Integer
-        
+
         // But why boxing is required in stream?
         // It is required because Collectors don't work with Primitive Streams
         // so we need to convert them to thier wrapper type. with boxed() method.
-        
-        
-        
-        
+
         // Unboxing : Wrapper type to primitive type.
-        // Integer -> int. 
-        
-        
+        // Integer -> int.
+
         // Boxing int -> Integer. boxed()
         List<Integer> listOfIntegers = IntStream.rangeClosed(1, 100)
-                //int
+                // int
                 .boxed()
-                //Integer
+                // Integer
                 .collect(Collectors.toList());
-        
+
         System.out.println(listOfIntegers);
-        
-        //Unboxing : Integer -> int mapToInt
-        //lets use listOfIntegers as it is List of Integer.
-        
-        
+
+        // Unboxing : Integer -> int mapToInt
+        // lets use listOfIntegers as it is List of Integer.
+
         // mapToInt converts the stream into intstream
-        
-        
-        int sum = listOfIntegers.stream().mapToInt(takeThisWrapper->takeThisWrapper).sum();
+
+        int sum = listOfIntegers.stream().mapToInt(takeThisWrapper -> takeThisWrapper).sum();
         System.out.println(sum);
-        
-        int sum2 = listOfIntegers.stream().mapToInt(thisWrapper->thisWrapper.intValue()).sum();
+
+        int sum2 = listOfIntegers.stream().mapToInt(thisWrapper -> thisWrapper.intValue()).sum();
         System.out.println(sum2);
-        
-        
-        
+
     }
 
 }
