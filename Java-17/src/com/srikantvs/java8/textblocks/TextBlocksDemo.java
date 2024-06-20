@@ -13,7 +13,7 @@ public class TextBlocksDemo {
                 + "\"Name\" : \"Java\","
                 + "\n\"RollNO\" : \"20\"\r\n"
                 + "}";
-
+        // Text blocks can bed used in place of string literal improve the readability of code
         String jsonDataWithTextBlocks = """
                 {
                     "companyName": "companyName",
