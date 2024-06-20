@@ -34,6 +34,7 @@ public class TextBlocksUsecases {
 
                 // ==========================================================================
                 // Refer -> https://jenkov.com/tutorials/java/strings.html search for translate in that webpage.
+                // https://github.com/hantsy/java-sandbox/blob/master/docs/text-block.md
                 String input = "Hey, \\n This is not normally a line break.";
                 System.out.println(input);
 
