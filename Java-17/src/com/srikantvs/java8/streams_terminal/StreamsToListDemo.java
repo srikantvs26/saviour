@@ -19,9 +19,9 @@ public class StreamsToListDemo {
         List<String> unmodifiableList= StudentDataBase.getAllStudents()
                 .stream()
                 .map(Student::getName)
-                .toList();
+                .toList(); // read documentation for this, its not that good.
 
-        unmodifiableList.add("Eve"); // java.lang.UnsupportedOperationException
+        unmodifiableList.add("Eve"); // java.lang.UnsupportedOperationException 
         System.out.println(unmodifiableList);
 
 
