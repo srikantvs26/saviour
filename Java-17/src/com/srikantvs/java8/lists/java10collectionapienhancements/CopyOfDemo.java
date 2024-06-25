@@ -13,9 +13,9 @@ public class CopyOfDemo {
         // points to keep in mind:
         // 1. Collection should not be null or contain null values o/w we will get NPE
         // 2. If Original collection is modified after calling copyOf method then newly created list is not updated.
-        // 3. If the Original collection itself if unmodifiable by var x = List.of(1,2,3), invoking copyOf doesn't create a copy.
+        // 3. If the Original collection itself is unmodifiable by var x = List.of(1,2,3), invoking copyOf doesn't create a copy.
 
-        ArrayList<Integer> modifiableList = new ArrayList<>(List.of(1, 2, 3)); // shouldn't contain null elements
+        ArrayList<Integer> modifiableList = new ArrayList<>(List.of(1, 2, 3)); // List.of shouldn't contain null elements
         var unmodifiableList = List.copyOf(modifiableList);
         System.out.println("unmodifiableList" + unmodifiableList);
 

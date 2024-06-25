@@ -1,4 +1,7 @@
 Introduction
 ---------------
+More -> OptionalLong, OptionalInt etc.
+
+
 Optional was introduced in java-8 for better handling of null values and null checks.
 Optional can be used to avoid Null Pointer Exception in code.

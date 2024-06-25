@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Optional;
 
 import com.srikantvs.java8.data.Student;
-import com.srikantvs.java8.data.StudentDataBase;
 
 public class Optional007OrElseThrowDemo {
 

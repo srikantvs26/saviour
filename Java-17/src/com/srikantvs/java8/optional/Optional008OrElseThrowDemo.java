@@ -1,16 +1,12 @@
 package com.srikantvs.java8.optional;
 
-import java.util.Arrays;
-import java.util.Optional;
-
-import com.srikantvs.java8.data.Student;
 import com.srikantvs.java8.data.StudentDataBase;
 
 public class Optional008OrElseThrowDemo {
 
     public static void main(String[] args) {
 
-        // //methods are spread out so we have to find out where we can apply
+        // methods are spread out so we have to find out where we can apply
         // what method.
 
         String adam = StudentDataBase.getAllStudents()
@@ -25,7 +21,8 @@ public class Optional008OrElseThrowDemo {
                 .stream()
                 .map(student -> student.getName())
                 .filter(name -> name.equalsIgnoreCase("soffffffffffia"))
-                .findFirst().orElseGet(() -> "Sofia");
+                .findFirst()
+                .orElseGet(() -> "Sofia");
 
         System.out.println(sofffffffffhia);
 

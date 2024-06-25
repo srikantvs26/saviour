@@ -10,7 +10,6 @@ public class Optional001Demo {
 
         Optional<Student> optionalStudent = StudentDataBase.getOptionalStudent();
         System.out.println(optionalStudent.get().getName().length());
-        
-        
+
     }
 }

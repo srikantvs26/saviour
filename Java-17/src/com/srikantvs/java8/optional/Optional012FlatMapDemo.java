@@ -2,7 +2,6 @@ package com.srikantvs.java8.optional;
 
 import java.util.Arrays;
 import java.util.Optional;
-import java.util.stream.IntStream;
 
 import com.srikantvs.java8.data.Bike;
 import com.srikantvs.java8.data.Student;
