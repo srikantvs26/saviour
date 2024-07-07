@@ -1,0 +1,1351 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "App(1)",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.App",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DynamicMethodDispatchDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.DynamicMethodDispatchDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "AbstractClassDemo1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.abstract_class.AbstractClassDemo1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "AbstractClassDemo2",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.abstract_class.AbstractClassDemo2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListEnhancements",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.collections.ArrayListEnhancements",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ConstructorSuperDemo1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.constructors_and_super_keyword.ConstructorSuperDemo1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DefaultMethods001Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.defaultstaticmethods.DefaultMethods001Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DefaultMethods002WithStudentsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.defaultstaticmethods.DefaultMethods002WithStudentsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DefaultMethods003SortWithNullDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.defaultstaticmethods.DefaultMethods003SortWithNullDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DefaultMethods004MultiplierClientDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.defaultstaticmethods.DefaultMethods004MultiplierClientDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DefaultMethods005AbstractClassVsInterfacesDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.defaultstaticmethods.DefaultMethods005AbstractClassVsInterfacesDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DefaultMethods006MultipleInheritanceDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.defaultstaticmethods.DefaultMethods006MultipleInheritanceDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DefaultMethods007MIProblemsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.defaultstaticmethods.DefaultMethods007MIProblemsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "FinalDemo1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.final_keyword.FinalDemo1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "FinalDemo2",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.final_keyword.FinalDemo2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "BiConsumerExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.BiConsumerExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "BiFunctionExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.BiFunctionExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "BiPredicateExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.BiPredicateExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "BinaryOperatorExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.BinaryOperatorExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ConsumerExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.ConsumerExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "FunctionExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.FunctionExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "FunctionExample1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.FunctionExample1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "FunctionStudentExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.FunctionStudentExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PredicateAndConsumerExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.PredicateAndConsumerExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PredicateExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.PredicateExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PredicateStudentExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.PredicateStudentExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PrimitiveConsumerExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.PrimitiveConsumerExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PrimitivePredicateExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.PrimitivePredicateExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "SupplierExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.SupplierExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "UnaryOperatorExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.functionalInterfaces.UnaryOperatorExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LocaleDemo0001",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.i18n.LocaleDemo0001",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LocaleDemo0002",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.i18n.LocaleDemo0002",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LocaleDemo0003",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.i18n.LocaleDemo0003",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LocaleDemo0004",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.i18n.LocaleDemo0004",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LocaleDemo0005",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.i18n.LocaleDemo0005",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ImperativeVsDeclarativeExample1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.imperativevsdeclarative.ImperativeVsDeclarativeExample1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ImperativeVsDeclarativeExample2",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.imperativevsdeclarative.ImperativeVsDeclarativeExample2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DefaultMethodsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.interfaces.DefaultMethodsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceExample1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.interfaces.InterfaceExample1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "MemberTypeDeclarationDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.interfaces.MemberTypeDeclarationDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "MemberTypeDeclarationDemo2",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.interfaces.MemberTypeDeclarationDemo2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PrivateMethodsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.interfaces.PrivateMethodsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "StaticMethodsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.interfaces.StaticMethodsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime001NowDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime001NowDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime002OfDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime002OfDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime003GettingValuesDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime003GettingValuesDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime004ModifyingLocalDatePlusDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime004ModifyingLocalDatePlusDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime005ModifyingLocalDateWithDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime005ModifyingLocalDateWithDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime006UtilMethodsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime006UtilMethodsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime007DateEqualOrNotDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime007DateEqualOrNotDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime008BeforeAfterDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime008BeforeAfterDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime009UnSupportedDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime009UnSupportedDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime010LocalTimeDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime010LocalTimeDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime011LocalTimeGettingDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime011LocalTimeGettingDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime012LocalTimeModifyingPlusMinusWithDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime012LocalTimeModifyingPlusMinusWithDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime013LocalTimeUtilDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime013LocalTimeUtilDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime014LocalTimeEqualOrNot",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime014LocalTimeEqualOrNot",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime015LocalTimeBeforeAfterDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime015LocalTimeBeforeAfterDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime016LocalTimeUnsupportedDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime016LocalTimeUnsupportedDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime017LocalDateTimeDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime017LocalDateTimeDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime018LocalDateTimeGettingValuesDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime018LocalDateTimeGettingValuesDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime019LocalDateTimeModifyingDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime019LocalDateTimeModifyingDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime020ConverstionLDLTToLDTAtTimeDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime020ConverstionLDLTToLDTAtTimeDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime020PeriodDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime020PeriodDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime021PeriodDifferenceBetweenDatesDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime021PeriodDifferenceBetweenDatesDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime022PeriodDifferenceBetweenDatesV2Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime022PeriodDifferenceBetweenDatesV2Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime023DurationDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime023DurationDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime024DurationDifferenceInTimeDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime024DurationDifferenceInTimeDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime025InstantDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime025InstantDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime026TimeZoneDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime026TimeZoneDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime027TimeZoneAvailableZoneIdsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime027TimeZoneAvailableZoneIdsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime028TimeZoneZoneOffsetDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime028TimeZoneZoneOffsetDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime029TimeZoneWithLocalDateTimeDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime029TimeZoneWithLocalDateTimeDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime030TimeZoneConvertingLocalDateTimeInstantToZonedDateTimeAtZoneDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime030TimeZoneConvertingLocalDateTimeInstantToZonedDateTimeAtZoneDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime031TimeZoneLocalDateTimeToOffsetDateTimeDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime031TimeZoneLocalDateTimeToOffsetDateTimeDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime032TimeZoneIndiaKoreaTimeZoneDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime032TimeZoneIndiaKoreaTimeZoneDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime033DateToLocalDateDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime033DateToLocalDateDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime034SQLDateToLocalDateDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime034SQLDateToLocalDateDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime035DateTimeFormatterLocalDateParsingDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime035DateTimeFormatterLocalDateParsingDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime036DateTimeFormatterLocalDateFormattingDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime036DateTimeFormatterLocalDateFormattingDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime037DateTimeFormatterLocalTimeDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime037DateTimeFormatterLocalTimeDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTime038DateTimeFormatterLocalDateTimeDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTime038DateTimeFormatterLocalDateTimeDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "DateTimeApiEnhancementsJava17Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.itsssstime.DateTimeApiEnhancementsJava17Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Ex104MinMaxAvgArr",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.java_coding_problems.Ex104MinMaxAvgArr",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ComparatorLambda",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.lambda.ComparatorLambda",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LambdaExceptionHandlingExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.lambda.LambdaExceptionHandlingExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LambdaVariable1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.lambda.LambdaVariable1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LambdaVariable2",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.lambda.LambdaVariable2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "RunnableLambdaExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.lambda.RunnableLambdaExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "BackForth",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.learnings.BackForth",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "SeaForth",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.learnings.SeaForth",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListVsArraysListExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.lists.ArrayListVsArraysListExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ListOfDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.lists.ListOfDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "CopyOfDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.lists.java10collectionapienhancements.CopyOfDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "TypeInference_Basic",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.local_variable_type_inference.TypeInference_Basic",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "TypeInference_Loops",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.local_variable_type_inference.TypeInference_Loops",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "TypeReferenceLambdaExFormalParameterDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.local_variable_type_inference.TypeReferenceLambdaExFormalParameterDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "TypeReference_AnonymousClass",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.local_variable_type_inference.TypeReference_AnonymousClass",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "TypeReference_Caveats",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.local_variable_type_inference.TypeReference_Caveats",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "TypeReference_Polymorphism",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.local_variable_type_inference.TypeReference_Polymorphism",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LocalVariableWithLambda01Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.localvariableinlambda.LocalVariableWithLambda01Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LocalVariableWithLambda02Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.localvariableinlambda.LocalVariableWithLambda02Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LocalVariableWithLambda03Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.localvariableinlambda.LocalVariableWithLambda03Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LocalVariableWithLambda04Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.localvariableinlambda.LocalVariableWithLambda04Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LocalVariableWithLambda05Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.localvariableinlambda.LocalVariableWithLambda05Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LocalVariableWithLambda06Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.localvariableinlambda.LocalVariableWithLambda06Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "MethodHidingDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.method_hiding.MethodHidingDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverrdingDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.method_overriding.MethodOverrdingDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "MethodReference001Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.methodreferences.MethodReference001Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "MethodReference002Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.methodreferences.MethodReference002Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "MethodReference003Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.methodreferences.MethodReference003Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "MethodReference003Demo1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.methodreferences.MethodReference003Demo1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "MethodReference004Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.methodreferences.MethodReference004Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "MethodReference005Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.methodreferences.MethodReference005Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "CreateNewFiles",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.nio2.CreateNewFiles",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "NumericStream001Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.numericstreams.NumericStream001Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "NumericStream002RangeRangeClosedCountDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.numericstreams.NumericStream002RangeRangeClosedCountDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "NumericStream003SumMaxMinAverageDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.numericstreams.NumericStream003SumMaxMinAverageDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "NumericStream004BoxingUnboxingDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.numericstreams.NumericStream004BoxingUnboxingDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "NumericStream005MapToObjDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.numericstreams.NumericStream005MapToObjDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "NumericStream006MapToLongMapToDoubleInNumericStreamDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.numericstreams.NumericStream006MapToLongMapToDoubleInNumericStreamDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Optional001Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.optional.Optional001Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Optional002CreatingOptionalDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.optional.Optional002CreatingOptionalDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Optional003OrElseGetThrowDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.optional.Optional003OrElseGetThrowDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Optional004OrElseGetDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.optional.Optional004OrElseGetDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Optional005OrElseGetDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.optional.Optional005OrElseGetDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Optional006OrElseGetDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.optional.Optional006OrElseGetDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Optional007OrElseThrowDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.optional.Optional007OrElseThrowDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Optional008OrElseThrowDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.optional.Optional008OrElseThrowDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Optional009IfPresentIsPresentDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.optional.Optional009IfPresentIsPresentDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Optional010IfPresentDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.optional.Optional010IfPresentDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Optional011FilterMapDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.optional.Optional011FilterMapDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Optional012FlatMapDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.optional.Optional012FlatMapDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ParallelStream001Demo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.parallelstreams.ParallelStream001Demo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ParallelStream002PerformanceDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.parallelstreams.ParallelStream002PerformanceDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ParallelStream003NumberOfProcessorsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.parallelstreams.ParallelStream003NumberOfProcessorsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ParallelStream004ParallelPipelineDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.parallelstreams.ParallelStream004ParallelPipelineDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "StudentsQuestion1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.qAnda.StudentsQuestion1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "StudentsQuestion2",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.qAnda.StudentsQuestion2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams01MapDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams01MapDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams02FlatMapDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams02FlatMapDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams03DistinctCountSortedDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams03DistinctCountSortedDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams04ComparatorDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams04ComparatorDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams05FilterDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams05FilterDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams06ReduceDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams06ReduceDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams07MapReduceDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams07MapReduceDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams08MinMaxDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams08MinMaxDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams09LimitSkipDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams09LimitSkipDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams10AnyAllNoneMatchDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams10AnyAllNoneMatchDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams11FindFirstAnyDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams11FindFirstAnyDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams12ShortCircuitingDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams12ShortCircuitingDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams13OfIterateGenerateDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams13OfIterateGenerateDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams13ToListMethodDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams13ToListMethodDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Streams14TakeWhileDropWhile",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams.Streams14TakeWhileDropWhile",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Stream001JoiningTerminalOpsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams_terminal.Stream001JoiningTerminalOpsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Stream002CountingTerminalOpsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams_terminal.Stream002CountingTerminalOpsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Stream003MappingTerminalOpsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams_terminal.Stream003MappingTerminalOpsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Stream004MaxByMinByTerminalOpsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams_terminal.Stream004MaxByMinByTerminalOpsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Stream005SummingIntTerminalOpsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams_terminal.Stream005SummingIntTerminalOpsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Stream006AveragingIntTerminalOpsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams_terminal.Stream006AveragingIntTerminalOpsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Stream007GroupingBy01TerminalOpsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams_terminal.Stream007GroupingBy01TerminalOpsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Stream008GroupingBy02TerminalOpsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams_terminal.Stream008GroupingBy02TerminalOpsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Stream009GroupingBy03TerminalOpsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams_terminal.Stream009GroupingBy03TerminalOpsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Stream010UseCaseCollectingAndThenTerminalOpsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams_terminal.Stream010UseCaseCollectingAndThenTerminalOpsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Stream011PartitioningByTerminalOpsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams_terminal.Stream011PartitioningByTerminalOpsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "StreamsToListDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.streams_terminal.StreamsToListDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "StringEnhancementsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.string_enhancements_java11.StringEnhancementsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "SuperDemo3",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.super_keyword.SuperDemo3",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "TextBlocksDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.textblocks.TextBlocksDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "TextBlocksNewLine",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.textblocks.TextBlocksNewLine",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "TextBlocksSyntax",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.textblocks.TextBlocksSyntax",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "TextBlocksUsecases",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.textblocks.TextBlocksUsecases",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ThisDemo1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.this_keyword.ThisDemo1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ThisDemo2",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.this_keyword.ThisDemo2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ThisDemo3",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.this_keyword.ThisDemo3",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ThisDemo4",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.this_keyword.ThisDemo4",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "LetterFrequencyCountDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.usecases.LetterFrequencyCountDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.usecases.Test",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "UseCase1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.usecases.UseCase1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Usecase2",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.usecases.Usecase2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Usecase3",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.usecases.Usecase3",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "BeforeVarArgsDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.varargs.BeforeVarArgsDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "VarArgsDemo1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.varargs.VarArgsDemo1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "VarArgsDemo2",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.varargs.VarArgsDemo2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "VarArgsDemo3",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.varargs.VarArgsDemo3",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "VarArgsDemo4",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.varargs.VarArgsDemo4",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "VarArgsDemo5",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.varargs.VarArgsDemo5",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "VarArgsDemo6",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.varargs.VarArgsDemo6",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "WideningDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.widening_narrowing.WideningDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "MouseMover",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.wipro.MouseMover",
+            "projectName": "Java-17_26e6efa1"
+        }
+    ]
+}
