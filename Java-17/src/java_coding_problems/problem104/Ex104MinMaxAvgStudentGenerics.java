@@ -1,4 +1,4 @@
-package java_coding_problems;
+package java_coding_problems.problem104;
 
 import java.util.Comparator;
 
