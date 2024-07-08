@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex104MinMaxAvgStudentGenerics",
+            "request": "launch",
+            "mainClass": "java_coding_problems.Ex104MinMaxAvgStudentGenerics",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Ex104MinMaxAvgStudent",
+            "request": "launch",
+            "mainClass": "java_coding_problems.Ex104MinMaxAvgStudent",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "ComparableMaxMinDemo",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.generic_usecases.ComparableMaxMinDemo",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.generic_methods_with_type_parameter.Test2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Test1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.generic_methods_with_type_parameter.Test1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Test4",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.generic_methods_with_type_parameter.Test4",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Test3",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.Test3",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.Test2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Test1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.Test1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

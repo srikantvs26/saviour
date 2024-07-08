@@ -2,7 +2,6 @@ package com.srikantvs.java8.streams;
 
 import java.util.Arrays;
 import java.util.Optional;
-import java.util.function.BiFunction;
 
 import com.srikantvs.java8.data.Student;
 import com.srikantvs.java8.data.StudentDataBase;
@@ -23,7 +22,7 @@ public class Streams06ReduceDemo {
 
         // it takes 2 input of same type and return also same type.
 
-        String studentWithBiggestName = StudentDataBase.getAllStudents()
+        String studentWithLongestName = StudentDataBase.getAllStudents()
                 .stream().map(eachStudent -> eachStudent.getName())
                 .reduce("hello", (name1, name2) -> {
 
@@ -34,7 +33,7 @@ public class Streams06ReduceDemo {
 
                 });
 
-        System.out.println(studentWithBiggestName);
+        System.out.println(studentWithLongestName);
 
         // student with highest gpa.
 
