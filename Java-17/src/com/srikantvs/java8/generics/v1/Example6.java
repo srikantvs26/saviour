@@ -13,8 +13,8 @@ public class Example6 {
         Foo<Object> f3 = new Foo<String>();// ERROR
 
         Foo<?> f4 = new Foo<Object>();
-        Foo<?> f5 = new Foo<Number>();// ERROR
-        Foo<?> f6 = new Foo<String>();// ERROR
+        Foo<?> f5 = new Foo<Number>();
+        Foo<?> f6 = new Foo<String>();
 
     }
 }
