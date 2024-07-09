@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Example5",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.v1.Example5",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
             "name": "Foo1",
             "request": "launch",
             "mainClass": "com.srikantvs.java8.generics.example1.Foo1",
