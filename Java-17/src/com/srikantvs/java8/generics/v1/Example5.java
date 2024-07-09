@@ -35,10 +35,10 @@ public class Example5 {
 
         /**
          * This is what we can declare on the left side, i.e declaration of variable of type having Generics.
-         * We can use the type Foo<Integer> declaration to declare a local variable, instance variable,static variable, return type of
-         * method, parameter of method.
+         * We can use the type Foo<Integer>, Foo<?>, Foo<? extends Number> and Foo<? super Number> declaration to declare a local variable,
+         * instance variable,static variable, return type of method, parameter of method.
          * 
-         * You should know that they are the constraints.
+         * You should know that these are the constraints, they control the type of T, which will be passed to class Foo<T>.
          */
         Foo<Integer> f1;
         Foo<?> f2; // any object wildcard

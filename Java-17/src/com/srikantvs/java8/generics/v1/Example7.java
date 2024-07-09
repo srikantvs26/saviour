@@ -23,6 +23,7 @@ public class Example7 {
 
 
         // The compiler is sure that it will be Number or its Parent type. and Parent can point to Child type.
+        // adding values or changing is allowed.
         Foo<? super Number> f4 = new Foo<Number>();
         f4.x=1.1; // Number pointing to Double
         f4.x=1;
