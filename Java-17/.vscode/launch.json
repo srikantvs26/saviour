@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Foo1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.example1.Foo1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "FooExample",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.example1.FooExample",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "MultipleLinesToSingleLine",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.example1.MultipleLinesToSingleLine",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
             "name": "Ex104MinMaxAvgStudentGenerics",
             "request": "launch",
             "mainClass": "java_coding_problems.Ex104MinMaxAvgStudentGenerics",
