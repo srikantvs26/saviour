@@ -1,7 +1,7 @@
 package com.srikantvs.java8.generics.v2;
 
 /**
- * 
+ * Applying constraints on the class itself.
  */
 class K<N extends Number> {
     N n;
@@ -25,10 +25,10 @@ public class Example6 {
 
         K<Number> k2 = new K<Integer>(10); // ERROR, It has to be precise type
 
-        K<Integer> k3 = new K<Integer>(10);
+        K<Integer> k3 = new K<Integer>(10); // Integer extends Number
         k3.m1();
 
-        K<Double> k4 = new K<>(14.4); // Using Diamond Operator
+        K<Double> k4 = new K<>(14.4); // Double extends Number, Using Diamond Operator
         k4.m1();
 
         // Bound mismatch: The type String is not a valid substitute for the bounded parameter <N extends Number> of the type K<N>
