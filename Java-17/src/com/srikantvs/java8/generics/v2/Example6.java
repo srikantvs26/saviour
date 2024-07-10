@@ -30,7 +30,8 @@ public class Example6 {
 
         K<Double> k4 = new K<>(14.4); // Using Diamond Operator
         k4.m1();
-        
+
+        // Bound mismatch: The type String is not a valid substitute for the bounded parameter <N extends Number> of the type K<N>
         K<String> k5 = new K<String>("hi");// String don't extend Number
 
     }
