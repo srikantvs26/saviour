@@ -1,5 +1,8 @@
 package com.srikantvs.java8.generics.v2;
 
+/**
+ * Diamond Operator example with constraints
+ */
 class Z<T> {
     T a;
 
@@ -20,10 +23,6 @@ public class Example4 {
 
         Z<? extends Number> z2 = new Z<Object>(10); // Error because Object type don't respect the constraint. <? extends Number>
 
-
-
-
-        
         Z<? super Number> z3 = new Z<>(23); // Okay, In diamond Operator automatically assumes the type to most general Object as shown
                                             // below.
         // is same as

@@ -1,6 +1,6 @@
 package com.srikantvs.java8.generics.v2;
 /*
- * Anonymous class example
+ * Anonymous class with Diamond Operator example
  */
 
 class Zoo<T> {
