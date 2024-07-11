@@ -1,11 +1,11 @@
-package com.srikantvs.java8.generics.v3;
+package com.srikantvs.java8.generics.v3.inheritance;
 
-class A<T,G>{
+class V<T,G>{
     T a;
     G b;
 }
 
-class B<Q> extends A<Q, Integer>{
+class S<Q> extends V<Q, Integer>{
 
 }
 
@@ -13,13 +13,12 @@ class B<Q> extends A<Q, Integer>{
 public class Example5 {
     public static void main(String[] args) {
         
-
-        B<Double> b1 = new B<>();
+        S<Double> b1 = new S<>();
         b1.a = 12.2;// Double
         b1.a = "Hello";// error
 
         b1.b = 10; // only Integer
-        b1.b = 10.1;// 
+        b1.b = 10.1;// error
     }
 
 }

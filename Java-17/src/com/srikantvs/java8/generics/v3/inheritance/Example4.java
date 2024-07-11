@@ -1,4 +1,4 @@
-package com.srikantvs.java8.generics.v3;
+package com.srikantvs.java8.generics.v3.inheritance;
 
 /**
  * Different examples, 

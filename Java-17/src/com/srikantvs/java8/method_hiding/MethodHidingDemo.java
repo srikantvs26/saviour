@@ -1,4 +1,4 @@
-package method_hiding;
+package com.srikantvs.java8.method_hiding;
 class Animal {
     public static void sound() {
         System.out.println("animal makes sound");

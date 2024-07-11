@@ -13,7 +13,7 @@ public class NumericStream004BoxingUnboxingDemo {
 
         // But why boxing is required in stream?
         // It is required because Collectors don't work with Primitive Streams
-        // so we need to convert them to thier wrapper type. with boxed() method.
+        // so we need to convert them to their wrapper type. with boxed() method.
 
         // Unboxing : Wrapper type to primitive type.
         // Integer -> int.

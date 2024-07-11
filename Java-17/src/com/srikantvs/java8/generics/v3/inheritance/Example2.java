@@ -1,4 +1,4 @@
-package com.srikantvs.java8.generics.v3;
+package com.srikantvs.java8.generics.v3.inheritance;
 /**
  * Inheritance with Generics with superclass type as String type.
  */
