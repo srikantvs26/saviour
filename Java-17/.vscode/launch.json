@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.v3.generic_methods.example1.Example",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Example7",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.v3.Example7",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Example4",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.v3.Example4",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Example3",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.v3.Example3",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Example2",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.v3.Example2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "Example1",
+            "request": "launch",
+            "mainClass": "com.srikantvs.java8.generics.v3.Example1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
             "name": "Example4",
             "request": "launch",
             "mainClass": "com.srikantvs.java8.generics.v2.Example4",

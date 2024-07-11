@@ -21,6 +21,7 @@ public class Example7 {
         f1.x = 50;
 
         // The compiler is not sure of Type, it can be Double, Integer, Float etc.
+        // Also see Example 7 in v3 folder
         Foo<? extends Number> f2 = new Foo<Integer>(30);
         f2.x = 30; // ERROR
 

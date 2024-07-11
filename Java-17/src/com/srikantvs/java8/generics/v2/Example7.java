@@ -18,6 +18,9 @@ public class Example7 {
                                                      // takes as Object. ? is any type so Object it can support.
 
         D<?, ? extends Number> d4 = new D<String, Integer>();
+        D<?,? extends Number> d5 = new D<>();// on RHS type is <Object, Number>();
+
+        //--- so on.
 
     }
 
