@@ -11,30 +11,30 @@ package com.srikantvs.java8.abstract_class;
 // There are no abstract constructors or abstract static methods.
 
 abstract class A {
-    abstract void callMe();
+	abstract void callMe();
 
-    void callMeToo() {
-        System.out.println("This is a concrete method.");
-    }
+	void callMeToo() {
+		System.out.println("This is a concrete method.");
+	}
 }
 
 class B extends A {
 
-    @Override
-    void callMe() {
-        System.out.println("B's implementation of callMe() ");
-    }
+	@Override
+	void callMe() {
+		System.out.println("B's implementation of callMe() ");
+	}
 }
 
 public class AbstractClassDemo1 {
-    public static void main(String[] args) {
-        B b = new B();
-        b.callMe();
-        b.callMeToo();
+	public static void main(String[] args) {
+		B b = new B();
+		b.callMe();
+		b.callMeToo();
 
-        // A a = new A();// illegal now not allowed
+		// A a = new A();// illegal now not allowed
 
-        A a1 = new B(); // allowed
-        a1.callMe(); // overridden method will be called.
-    }
+		A a1 = new B(); // allowed
+		a1.callMe(); // overridden method will be called.
+	}
 }
