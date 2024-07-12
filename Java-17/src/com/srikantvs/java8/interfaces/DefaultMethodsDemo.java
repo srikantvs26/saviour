@@ -38,7 +38,7 @@ class SavingsAccount implements Bank {
         System.out.println("Account Type :: SAVINGS");
     }
 
-    SavingsAccount(double balance){
+    SavingsAccount(double balance) {
         this.balance = balance;
     }
 }
@@ -48,10 +48,10 @@ public class DefaultMethodsDemo {
     public static void main(String[] args) {
         Bank accBank = new SavingsAccount(10000);
         accBank.displayAccountType();
-        System.out.println("Initial Balance :: "+accBank.getBalance());
+        System.out.println("Initial Balance :: " + accBank.getBalance());
         accBank.deposit(1000);
         accBank.withdraw(8000);
-        System.out.println("Final Balance :: "+accBank.getBalance());
+        System.out.println("Final Balance :: " + accBank.getBalance());
     }
 
 }
