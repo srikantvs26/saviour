@@ -9,6 +9,13 @@
             "name": "PathDemo8",
             "request": "launch",
             "mainClass": "nio2.paths.PathDemo8",
+            "projectName": "master_Java-17"
+        },
+        {
+            "type": "java",
+            "name": "PathDemo8",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo8",
             "projectName": "Java-17_26e6efa1"
         },
         {
