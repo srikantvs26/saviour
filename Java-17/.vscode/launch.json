@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PathDemo8",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo8",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PathDemo7",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo7",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PathDemo6",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo6",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PathDemo5",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo5",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PathDemo4",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo4",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PathDemo3",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo3",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PathDemo2",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PathDemo1",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
             "name": "Example",
             "request": "launch",
             "mainClass": "com.srikantvs.java8.generics.v3.generic_methods.example1.Example",

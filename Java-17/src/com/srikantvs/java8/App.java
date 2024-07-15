@@ -1,5 +1,8 @@
 package com.srikantvs.java8;
 
+import java.net.URI;
+import java.nio.file.FileSystems;
+import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -15,5 +18,13 @@ public class App {
         // dateTime.atTime;
         // LocalDate.attime
         // LocalDateTime ldDayEnd = dateTime.atTime(LocalTime.MAX);
+        URI uri = FileSystems.getDefault().getPath(System.getProperty("user.dir")).toUri();
+        System.out.println(uri);
+        // FileSystems.getFileSystem(uri);
+
+         URI uri2 = Paths.get("App.java").toUri();
+         System.out.println(uri2);
+        System.out.println(FileSystems.getFileSystem(uri2));
+        
     }
 }
