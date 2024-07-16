@@ -11,11 +11,8 @@ public class PathDemo3 {
         // elements eliminated.
         // . is redundant
         // .. remove the previous folder, because we have to take parent then
-        Path noNormalize = Paths
-                .get("C:/rafaelnadal/tournaments/./2009/dummy/../BNP.txt");
-        Path normalize = Paths
-                .get("C:/rafaelnadal/tournaments/./2009/dummy/../BNP.txt")
-                .normalize();
+        Path noNormalize = Paths.get("C:/rafaelnadal/tournaments/./2009/dummy/../BNP.txt");
+        Path normalize = Paths.get("C:/rafaelnadal/tournaments/./2009/dummy/../BNP.txt").normalize();
         // . is tournaments
         // .. is 2009
 

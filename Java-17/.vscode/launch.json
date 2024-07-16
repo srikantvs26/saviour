@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PathDemo12",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo12",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PathDemo11",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo11",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PathDemo10",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo10",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PathDemo9",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo9",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
             "name": "PathDemo8",
             "request": "launch",
             "mainClass": "nio2.paths.PathDemo8",
