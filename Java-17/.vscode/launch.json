@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileAttrDemo3",
+            "request": "launch",
+            "mainClass": "nio2.metadata_file_attributes.FileAttrDemo3",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "FileAttrDemo2",
+            "request": "launch",
+            "mainClass": "nio2.metadata_file_attributes.FileAttrDemo2",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "FileAttrDemo1",
+            "request": "launch",
+            "mainClass": "nio2.metadata_file_attributes.FileAttrDemo1",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
             "name": "PathDemo14",
             "request": "launch",
             "mainClass": "nio2.paths.PathDemo14",
