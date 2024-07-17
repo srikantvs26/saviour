@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PathDemo14",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo14",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "PathDemo13",
+            "request": "launch",
+            "mainClass": "nio2.paths.PathDemo13",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
             "name": "PathDemo12",
             "request": "launch",
             "mainClass": "nio2.paths.PathDemo12",
