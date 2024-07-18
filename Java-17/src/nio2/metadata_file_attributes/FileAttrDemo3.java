@@ -10,8 +10,10 @@ import java.nio.file.attribute.FileTime;
 import java.time.ZoneId;
 
 /**
- * Basic View Most file system implementations support a set of common attributes (size, creation time, last accessed time, last
- * modified time, etc.). These attributes are grouped into a view named BasicFileAttributeView
+ * Basic View
+ * 
+ * Most file system implementations support a set of common attributes (size, creation time, last accessed time, last modified time,
+ * etc.). These attributes are grouped into a view named BasicFileAttributeView
  * 
  * Get Bulk Attributes with readAttributes() (the varargs argument currently supports the LinkOption.NOFOLLOW_LINKS enum—do not follow
  * symbolic links):

@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileAttrDemo8",
+            "request": "launch",
+            "mainClass": "nio2.metadata_file_attributes.FileAttrDemo8",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "FileAttrDemo7",
+            "request": "launch",
+            "mainClass": "nio2.metadata_file_attributes.FileAttrDemo7",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "FileAttrDemo6",
+            "request": "launch",
+            "mainClass": "nio2.metadata_file_attributes.FileAttrDemo6",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
+            "name": "FileAttrDemo5",
+            "request": "launch",
+            "mainClass": "nio2.metadata_file_attributes.FileAttrDemo5",
+            "projectName": "Java-17_26e6efa1"
+        },
+        {
+            "type": "java",
             "name": "FileAttrDemo3",
             "request": "launch",
             "mainClass": "nio2.metadata_file_attributes.FileAttrDemo3",
